@@ -73,7 +73,7 @@
                     <executable>java</executable>
                     <arguments>
                         <!--<argument>-server</argument>-->
-                        <argument>-Xss2m</argument>
+                        <argument>-Xss1m</argument>
                         <argument>-Xms259m</argument>
                         <argument>-Xmx259m</argument>
                         <argument>-XX:NewSize=3m</argument>
