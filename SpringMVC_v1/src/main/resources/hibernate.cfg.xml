@@ -1,0 +1,14 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    
+    <session-factory>
+    	<property name="hibernate.hbm2ddl.auto">update</property>
+    	<property name="hibernate.current_session_context_class">thread</property>
+    	
+        <mapping class="org.mentoring.book.form.Book" />
+    </session-factory>
+         
+</hibernate-configuration>
